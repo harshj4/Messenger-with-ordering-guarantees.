@@ -6,5 +6,5 @@ A simple android based messenger with provides FIFO, causal and total ordering g
 There is at most one node failure in the middle of conversation. This implementation ensures that even under failed node scenario, other nodes do not wait for responses/proposals from the failed node. In other words, even when a node is crashed, messages do not stall and still provide FIFO total ordering.
 </p>
 <p>
-<a href="https://cse.buffalo.edu/~stevko/courses/cse486/spring13/lectures/12-multicast2.pdf">Click here for the detailed ISIS algorithm</a>
+<a href="https://cse.buffalo.edu/~stevko/courses/cse486/spring13/lectures/12-multicast2.pdf" target="_blank">Click here for the detailed ISIS algorithm</a>
 </p>
